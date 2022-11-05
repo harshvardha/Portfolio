@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is backend for my portfolio website",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshvardha/portfolio.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Harshvardhan Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshvardha/portfolio/issues"
+  },
+  "homepage": "https://github.com/harshvardha/portfolio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0",
+    "mongoose": "^6.7.1"
+  }
+}
