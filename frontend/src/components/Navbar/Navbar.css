@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    padding-top: 2rem;
+    box-shadow: 0px 1px 6px #a0a0a0;
+}
+
+.navbar-link {
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #a0a0a0;
+    margin-bottom: 3px;
+}
+
+.navbar-link:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.25s linear;
+}
+
+.navbar-link:hover::before {
+    width: 100%;
+    /* background-color: #ff3c78; */
+    background-color: #a0a0a0;
+}
+
+
+
+.navbar p {
+    cursor: pointer;
+}
